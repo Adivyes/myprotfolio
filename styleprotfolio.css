@@ -1,3 +1,6 @@
+body{
+    display: grid;
+}
 h1,h2{
    text-align: center;
 }
@@ -8,4 +11,25 @@ h1{
 
 #myphoto{
 width: 30%;
+}
+
+.icon{
+width: 10%;
+}
+
+nav{
+    height: 100vh;
+    width: 20px;
+    background-color: rgba(62, 62, 255, 0.474);
+}
+header{
+    width: 100vh;
+    height: 20px; 
+    background-color: rgba(165, 42, 42, 0.659);
+}
+footer{
+width: 100vh;
+height: 20px;
+bottom: 1vh;
+background-color: rgba(255, 127, 80, 0.755);
 }
