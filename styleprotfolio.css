@@ -1,32 +1,63 @@
-/* body{
-    display: grid;
-} */
+body{
+    margin: 0;
+    padding: 0;
+}
 h2{
+    padding-bottom: 50px;
    text-align: center;
-   font-size: 20px;
+   font-size: 25px;
 margin-bottom: 2px;
 text-shadow: 2px 2px rgba(62, 62, 62, 0.365);
 }
 
 h1{
+    padding-top: 250px;
     margin-bottom: 2px;
     text-shadow: 2px 2px rgba(62, 62, 62, 0.365);
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     text-decoration: underline;
 }
 
+h3{
+    text-align: center;
+    font-size: 35px;
+}
+
 
 #myphoto{
-width: 100px;
+width: 200px;
 display: block;
 margin: auto;
 border: 2px solid black;
-border-radius: 65px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 150px;
+box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.377), 0 15px 40px 0 rgba(0, 0, 0, 0.486);
+}
+
+/* ------------------למה ההדר מתחיל ברווח מראש העמוד  */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(126, 126, 126),#8d8d8ddc),url(imges/logo_black.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme{
+    padding-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(28, 26, 139, 0.39);
+ 
 }
 
 .icon{
+    margin: 50px;
 width: 50px;
 padding: 5px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -34,22 +65,25 @@ border-radius: 65px;
 }
 
 .proicons{
+    padding-top: 50px;
+    height: 100vh;
+    /* width: 100%;------------- למה כשאני רוצה שהדף ימתח לרוחב 100% הפלקס משנה לי את המירכוז */
 
 }
-header{
+
+.edu{
+    padding-top: 50px;
     width: 100%;
-    background-color: rgba(165, 42, 42, 0.659);
+    height: 100vh;
+    background-color: rgba(24, 21, 172, 0.39);
+
 }
+
+
 footer{
-    position: absolute;
+    position: relative;
 width: 100%;
 height: 20px;
-bottom: 1vh;
+bottom: 1px;
 background-color: rgba(255, 127, 80, 0.755);
-}
-#mainDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
