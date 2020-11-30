@@ -105,7 +105,6 @@ window.onload = () =>{
 }             
 
 function fixNum(){
-    // ----איך הרעיון של איי פחות בי בעצם עובד-------
     numorder.sort(function (a,b){return b-a});
     document.getElementById('mixnum').innerHTML = numorder;
 }
